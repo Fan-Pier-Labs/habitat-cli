@@ -1,0 +1,1145 @@
+{
+  "navigation": {
+    "website": "Website:",
+    "emailLink": "customerservice@habitat.support",
+    "phoneWorkingTime": "M-F 9:00 AM - 5:00 PM EST",
+    "mailingAddressInfo": {
+      "line4": "New York, NY 10016-0444",
+      "line3": "330 East 38th Street, Suite 530",
+      "line2": "Customer Service Department",
+      "line1": "Habitat Technologies"
+    },
+    "customerService": "Customer Service:",
+    "internalError": "Internal Error",
+    "mailingAddress": "Mailing Address:",
+    "pageNotFound": "Page Not Found",
+    "phoneLink": "1-800-717-1682",
+    "supportpage": "Support",
+    "websiteLink": "www.habitattechnologies.com",
+    "emailLinkTip": "Email:",
+    "homepage": "Home",
+    "phoneLinkTip": "Call Center:"
+  },
+  "staticInformation": {
+    "about": "About",
+    "version": "Version",
+    "license": "License"
+  },
+  "region": {
+    "region": "Region",
+    "help": " "
+  },
+  "devices": {
+    "deviceDetailInfo": {
+      "deviceOfflineDateTime": "Thermostat is offline, last updated at {{offlineTime}} on {{offlineDate}}"
+    },
+    "requiredField": "This field is required",
+    "pairError": "Device is not available or already paired.",
+    "updateSetting": {
+      "failure": "Device Setting update failed.",
+      "success": "Device Setting updated."
+    },
+    "unpairError": "Device is not available.",
+    "registerDevice": "Register Device",
+    "loadFailure": "Failed to load data from server.",
+    "removeDevice": {
+      "failureByAdmin": "HomeLink Module is locked by Admin account, please contact with administration",
+      "description": "You are about to remove {{deviceName}}.",
+      "success": "Your device is successfully removed.",
+      "title": "Remove HomeLink Module",
+      "button": "Remove HomeLink Module",
+      "processing": "Removing device...",
+      "factoryResetDescription": "Factory reset the Homelink Module",
+      "failure": "Your device cannot be removed. {{errorMessage}}",
+      "checkboxLabel": "Factory reset WiFi-Zigbee Module"
+    },
+    "provisioningFailed": "Provisioning failed ( {{errorCode}} ). Please factory reset your device and scan again.",
+    "addZigbeeDevice": {
+      "scanning": "Scan Results Additional Devices",
+      "confirmDeleteAlert": "Are you sure you want to remove the selected sensor?",
+      "name": "name",
+      "noMoreThanFiveDevices": "No more than 5 devices may be paired with a HomeLink system. Please select another Homelink",
+      "selectedDevices": "{{selectedNum}} of {{scannedNum}} Selected",
+      "scanResultsTip": "A maximum of 5 sensors may be paired with a single system",
+      "needProvideNameForDevice": "You must provide a Name for each device to help Identify Its location and function.",
+      "nameDevices": "Identify and Name Additional Devices",
+      "pleaseNote": "Please Note:",
+      "addingReachedMaxCountDevices": "By adding this device now, you have reached the maximum number of devices(5) that can be paired with this HomeLink Module. Please select a different HomeLink Module if you would like to add additional devices",
+      "noSaveToLeaveAlert": "Changes have not been saved to the device, leaving this page will discard any changes.",
+      "reachedMaxCountDevices": "You have reached the maximum number of devices(5) that can be paired with this HomeLink Module. Please select a different HomeLink Module if you would like to add additional devices",
+      "unselectedToDelete": "Unselected devices will be deleted",
+      "delete": "Delete"
+    },
+    "wifiZigbeeModuleInfo": {
+      "zigbee": "Zigbee",
+      "wifi": "Wi-Fi",
+      "title": "HomeLink Module HTZ-01"
+    },
+    "deviceBelongsToOthers": "The device has been associated with other user account, please factory reset your device and scan again.",
+    "modelName": {
+      "waterSensor": "Water Leak Sensor",
+      "MotionSensor": "Motion Sensor",
+      "SlimDoorWindowSensor": "Slim Door Window Sensor",
+      "EmbeddedDoorSensor": "Embedded Door Sensor",
+      "DoorWindowSensor": "Door/Window Sensor",
+      "tempSensor": "Remote Temp Sensor"
+    },
+    "additionalDevicesInfo": {
+      "title": "Additional Devices",
+      "fwVersion": "FW Version:",
+      "ZID": "ZID:",
+      "successfullyAdded": "Selected devices have been successfully added.",
+      "removeDevice": {
+        "button": "Remove Device",
+        "description": "You are about to remove this device from the network."
+      },
+      "noSaveToLeaveAlert": "Changes have not been saved to the device, leaving this page will discard any changes."
+    },
+    "scanNewDevices": "Add Additional Devices",
+    "noDevice": "No Device",
+    "location": {
+      "status": {
+        "inside": "Inside Geofencing Radius",
+        "outside": "Outside Geofencing Radius"
+      },
+      "geofencingActivated": "Geofencing setting is activated to come on for this system.",
+      "permissionRequired": {
+        "content": "Please select \"always\" access your location, would you like to open App settings?",
+        "title": "Turn On App Location Permission"
+      },
+      "allowGeofencingControl": "Allow Geofencing to control device when I'm more than the following distance from home.",
+      "pleaseWait": "Please wait...",
+      "mi": "Miles",
+      "turnOffBatteryOptimization": {
+        "content": "For location sharing and driving features to work property for your Circle, turn off Battery optimization in your phone settings for the app. This won't affect your other apps.",
+        "title": "Turn Off Battery Permission"
+      },
+      "km": "Km",
+      "phoneLimit": "8 phones are in Location mode already.",
+      "activateGeofenceNote2": "Please note that the home location is set based on the location of your phone when Geofencing is enabled. ",
+      "activateGeofenceNote3": "Location accuracy may be negatively affected by factors outside of Habitat's control.",
+      "deactivateGeofenceNote": "The Geofencing setting with now be DEACTIVATED for this system.",
+      "activateGeofenceNote1": "Geofencing automatically activates the system's Setback/Eco mode based on your phone's location and distance from your home location.",
+      "phoneName": "Phone name",
+      "phones": "Phones",
+      "pleaseNote": "PLEASE NOTE:",
+      "locationServicesRequired": {
+        "content": "Please turn on location in Phone settings.",
+        "title": "Turn On Location"
+      },
+      "geofencingStatus": "Geofencing Status"
+    },
+    "equipmentData": {
+      "modelNumber": {
+        "title": "Model #"
+      },
+      "installingContractor": {
+        "title": "Installing Contractor"
+      },
+      "manufacturer": {
+        "title": "Manufacturer"
+      },
+      "title": "Equipment Data"
+    },
+    "deviceDetail": "Device details",
+    "invalidBluetoothID": "Invalid Bluetooth ID. Please factory reset your device and scan again.",
+    "thermostatInfo": {
+      "cancelIdentification": "Cancel All Identification",
+      "cancelling": "Cancelling...",
+      "pairingBaseModule": "Pairing Base Module",
+      "identifying": "Identifying...",
+      "title": "Thermostat HTK-01",
+      "pairBaseModule": "Pair Base Module",
+      "reboot": "Reboot",
+      "identify": "Identify All Devices",
+      "identifyingFail": "Identifying failed, please try again",
+      "cancellingFail": "Cancelling failed, please try again",
+      "baseModulePaired": "Base Module #{{index}} Paired",
+      "stopPairing": "Stop Pairing",
+      "pairingBaseModuleModalTitle": "Pairing Base Modules"
+    },
+    "updateDeviceName": {
+      "failure": "Device Name update failed.",
+      "success": "Device Name updated."
+    },
+    "deviceFullyLoad": "This device may take a few minutes to load on the Dashboard depending on WIFI network speeds.",
+    "baseModulesInfo": {
+      "cancelIdentification": "Cancel Identification",
+      "title": "Base Modules HTM-01",
+      "removeBaseModule": {
+        "description": "You are about to remove Base Module {{baseModuleNames}}, Please input code if you are sure to proceed.",
+        "success": "Your Base Module is successfully removed.",
+        "title": "Remove Base Module",
+        "button": "Remove Base Module",
+        "processing": "Removing Base Module...",
+        "failure": "Your Base Module cannot be removed. {{errorMessage}}"
+      },
+      "reboot": "Reboot",
+      "identify": "Identify",
+      "rlFromTherm": "RSSI/LQI from Thermostat",
+      "rlToTherm": "RSSI/LQI to Thermostat",
+      "baseModuleIndex": "Base Module #{{index}}",
+      "fhversion": "FW/HW version"
+    },
+    "addDevice": "Add Thermostat",
+    "deviceInfo": "About this device",
+    "factoryResetException": "Pairing failed. Please reset the device to factory settings.",
+    "systemAlert": {
+      "batteryVoltageLow": "Battery voltage is low, please replace batteries.",
+      "waterLeakSensorCoverOpen": "The Water Leak Sensor Cover is open.",
+      "waterLeakDetected": "Water leak detected.",
+      "xxxBatteryVoltageLow": "{{deviceName}} battery voltage is low, please replace batteries.",
+      "xxxNotMountedProperly": "{{deviceName}} is not mounted properly.",
+      "xxxCoverOpen": "{{deviceName}} cover is open.",
+      "remoteSensorOffline": "Homelink module can\u2019t communicate with remote sensor.",
+      "xxxOffline": "HomeLink module can\u2019t communicate with {{deviceName}}."
+    },
+    "device": "Device",
+    "updateSchedule": {
+      "failure": "Schedule update failed.",
+      "success": "Schedule updated."
+    },
+    "protectingCompressor": "Protecting Compressor \u2026 ",
+    "deviceLoading": "Retrieving Data ...",
+    "admin": "Admin",
+    "devicePairedError": "Device is already paired.",
+    "beforeInstallingYourNewThermostat": "Press + to begin",
+    "notExistError": "Device is not available."
+  },
+  "deviceProvisioning": {
+    "authError": "Password is incorrect. Please check your Wi-Fi network password and try again.",
+    "connectYourDevice": "Connecting your device",
+    "help": {
+      "apSsid": "Wi-Fi network must be 2.4G.",
+      "apPassword": "Leave it blank if it is an open network."
+    },
+    "deviceFound": "Devices found",
+    "apPassword": "Password",
+    "provisioningFailed": "Provisioning failed. Please factory reset your device and try again.",
+    "deviceDescription": {
+      "systemType": {
+        "required": "Unit Type is required",
+        "list": {
+          "ptac": "PTAC (Packaged Terminal Unit)",
+          "unty": "UNTY (Unitary AC/Furnace)",
+          "hp": "HP (Heat Pump)",
+          "hhp": "HHP (Hybrid Heat Pump)",
+          "fcu": "FCU (Fan Coil Unit/Mini-Split)"
+        },
+        "editDescription": "Unit Type"
+      },
+      "installingContractor": {
+        "required": "Installing Contractor is required",
+        "editDescription": "Installing Contractor"
+      },
+      "modelNumber": {
+        "required": "Model Number is required",
+        "editDescription": "Model Number"
+      },
+      "description": "Please enter the equipment manufacturers name, model number and Installing contractors name in the fields below.",
+      "manufacturer": {
+        "required": "Manufacturer Name is required",
+        "list": {
+          "appliedComfort": "Applied Comfort",
+          "islandAire": "Island Aire",
+          "aaon": "AAON",
+          "daikin": "Daikin",
+          "retroAire": "Retro Aire",
+          "lg": "LG",
+          "firstCo": "First Co",
+          "friedrich": "Friedrich",
+          "other": "Other",
+          "iec": "IEC",
+          "mcQuay": "McQuay",
+          "williams": "Williams",
+          "iceAir": "Ice Air",
+          "amana": "Amana",
+          "simonAire": "Simon Aire",
+          "theWhalenCompany": "The Whalen Company",
+          "climateMaster": "Climate Master",
+          "generalElectric": "General Electric",
+          "adirondackAire": "Adirondack Aire",
+          "samsung": "Samsung",
+          "trane": "Trane",
+          "carrier": "Carrier"
+        },
+        "editDescription": "Manufacturer Name"
+      }
+    },
+    "configureDevice": {
+      "description": "To continue to add device {{deviceName}}, touch Confirm to continue. Otherwise, touch Cancel.",
+      "title": "Confirmation"
+    },
+    "connectingDevice": "Connecting Device",
+    "turnOnLocationDescription": "Location is needed to set up device. Enable location from your phone's setting and then return to this App.",
+    "waitingOnlineTimeOutDescription": "Provisioning time out. Please factory reset your device and try again.",
+    "getDevcieInfo": "Getting device info",
+    "invalid": {
+      "apSsid": "Wi-Fi Network name exceeds 31 characters.",
+      "apPassword": ""
+    },
+    "step6": "Step 6",
+    "step5": "Step 5",
+    "step4": "Step 4",
+    "step3": "Step 3",
+    "step2": "Step 2",
+    "step1": "Step 1",
+    "turnOnLocation": "Turn on Location",
+    "scanningDevice": "Scanning for devices",
+    "provisioningYourDevice": "Connecting to the Cloud",
+    "networkNotFound": "Network not found. Please check your network configuration and try again.",
+    "provisioningYourDeviceDescription1": "Please wait while we add your HomeLink module.",
+    "provisioningYourDeviceDescription2": "This may take a few minutes depending on WIFI network speeds.",
+    "selectWifiDescription2": "Enter the WIFI password.",
+    "selectWifiDescription1": "Select the desired network from the drop-down list.",
+    "provisioningTimeout": "Provisioning time out. Please factory reset your device and scan again.",
+    "configWifiDescription": "Please wait while we connect the HomeLink module to the WIFI network. This may take a few minutes depending on WIFI network speeds.",
+    "scannedEndDescription2": "If the desired HomeLink module is not listed, you can (1) Completely close and restart the Habitat App and rescan for devices or (2) Factory reset the device.",
+    "scannedEndDescription1": "Select the device to add.",
+    "deviceAdded": "Device Added",
+    "connectingDeviceFail": "Cannot connect to your device, please try again later.",
+    "nameTheDevice": "Name the Device",
+    "apSsid": "Wi-Fi Network",
+    "configureTimeout": "Connecting timeout. Please reboot your device and rescan again.",
+    "selectWifiNetwork": "Select WIFI Network",
+    "noDeviceFound": "No devices found",
+    "button": {
+      "retry": "Retry",
+      "scan": "Scan",
+      "rescan": "Rescan",
+      "stop": "Stop",
+      "back": "Back",
+      "addMoreDevices": "Add more devices"
+    },
+    "turnOnBluetooth": "Turn on Bluetooth",
+    "configureFailed": "Connecting failed ( {{errorCode}} ). Please factory reset your device and try again.",
+    "scanningDeviceDescription2": "Be sure your mobile device is within 5ft and Bluetooth is enabled.",
+    "turnOnBluetoothDescription": "Bluetooth is needed to set up device. Enable Bluetooth from your phone's setting and then return to this App.",
+    "getDevcieInfoDescription": "The HomeLink module has been added, we are retrieving data from the server.",
+    "scannedResult": "Scan Results",
+    "deviceRegistration": "Device App Registration",
+    "scanningDeviceDescription1": "Plug in the HomeLink module.",
+    "getInfoTimeout": "Retrieving data from server has timed out, retry?"
+  },
+  "userSession": {
+    "help": {
+      "password": " ",
+      "email": " ",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters)."
+    },
+    "signIn": {
+      "google": "Sign in with Google",
+      "basic": "Sign In"
+    },
+    "invalidSignatureException": "Please turn on Automatic Date and Time in phone setting",
+    "resendInvitation": "Resend registration invitation.",
+    "signOutDescription": "Are you sure you want to sign out?",
+    "passwordAttemptsExceeded": "You have entered an incorrect password too many times and your access is temporarily blocked for security.",
+    "rememberMe": "Keep me logged in",
+    "passwordResetRequired": "You have to reset your password. A confirmation code will be sent to your inbox.",
+    "invalid": {
+      "password": "Please enter your password.",
+      "email": "Please enter your email address.",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters)."
+    },
+    "sessionExpired": "Session has expired.",
+    "invalidCredential": "Incorrect email or password.",
+    "newPasswordRequired": "A new password is required.",
+    "email": "Email Address",
+    "subscriptions": {
+      "userNotSubscribed": "Sorry, you have not subscribed.",
+      "purchaseReminder": "This subscription gives you unlimited access and updates to the HomeLink app. You will be automatically charged $12.99 yearly until you cancel.",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "bannerContent": "The HomeLink App is the easiest way to control and monitor your Habitat Thermostats from anywhere!",
+      "price": "Annually subscription for $12.99/Year after trial ends",
+      "freeTrial": "30 DAY FREE TRIAL",
+      "restorePurchases": "Already Subscribed? Restore it",
+      "notes": {
+        "p2": "Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current subscription.",
+        "p3": "Your account will be automatically charged within 24 hours prior to the  end of your current subscription.",
+        "p1iOS": "Payment will be charged to iTunes Account at confirmation of purchase.",
+        "p4": "No cancellation of the current subscription is allowed during active subscription period.",
+        "p5": "Any unused portion of a free trial period, will be forfeited when the  user purchases a subscription to the App.",
+        "p1Android": "Payment will be charged to the Play Store Account at confirmation of purchase."
+      }
+    },
+    "signOut": "Sign Out",
+    "resendConfirmationCode": "Resend Confirmation Email",
+    "passwordReset": "Forgot your password?",
+    "password": "Password",
+    "signUp": "Sign Up",
+    "resetPasswordOrTryAgain": "Please reset your password or try again in 20 minutes.",
+    "signOutSuccess": "You have successfully signed out.",
+    "newPassword": "New Password",
+    "userNotConfirmed": "Your email address hasn't been confirmed."
+  },
+  "legal": {
+    "termsAndConditions": {
+      "termsAndConditions_section1_part1": "1. This Agreement sets forth the terms and conditions between Habitat Technologies LLC (\"Seller\") and the customer, including individuals of other legal entities (\"Buyer\") for the purchase of goods or services (\"Goods\") from Seller by Buyer. By accepting the Goods, Buyer hereby agrees to and accepts these Terms and Conditions without variation or addition. Buyer further agrees that any terms or conditions that vary in any way from these Terms and Conditions which are contained in any purchase order or other Buyer generated documents shall form no part of the Terms and Conditions with respect to the sale of Goods by Seller to Buyer unless expressly accepted by Seller in writing. Seller reserves at all times the right in its sole discretion to refuse orders from Buyer. The Agreement shall be for the benefit of Seller and Buyer and not for the benefit of any other person. Prior courses of dealing, trade usage and verbal agreements not reduced to a writing signed by Seller, to the extent they differ from, modify, add to or detract from the Agreement, shall not be binding on Seller. There are no agreements, promises or understandings, either verbal or written that are not fully expressed herein. No statements, recommendations, or assistance by either party has been relied upon by either party or shall constitute a waiver by either party of the provisions.",
+      "termsAndConditions_section18_part1": "18. Arbitration. Any dispute, claim or controversy arising out of, or between the Parties during the execution of or interpretation of this Agreement shall be governed by the laws of the State of Missouri and shall be resolved by arbitration in accordance with the American Arbitration Association Dispute Resolution Procedures in effect at the time of arbitration.",
+      "termsAndConditions_section11_part1": "11. Assignment. Buyer shall not assign its rights or delegate its duties hereunder or any interest herein without the prior written consent of the Seller, and any such assignment, without such consent, shall be void.",
+      "termsAndConditions_section4_part1": "4. Taxes. Any and all taxes or other governmental charges (whether current or future) which Seller is required to pay or collect as a result of the sale of Goods by Seller to Buyer shall be for Buyer\u2019s account and shall be added to the price.",
+      "termsAndConditions_section13_part1": "13. Drawings. Seller\u2019s prints and drawings (including without limitation, the underlying technology) furnished by Seller to Buyer in connection with this agreement are the property of Seller and Seller retains all rights, including without limitation exclusive rights of use, licensing and sale of same, possession of such prints or drawings does not convey to Buyer any rights therein or license thereto and Buyer agrees to keep the same confidential. Upon termination of this agreement, or at any time upon Seller\u2019s request, all such prints and drawings, and any copies or duplication of same, shall be immediately returned to Seller.",
+      "termsAndConditions_section2_part1": "2. Incorporation of Terms. These Terms and Conditions along with any Seller price list, schedule, quotation, invoice or other Seller prepared document relevant to the sale of Goods to Buyer, along with all other documents specifically incorporated by reference in writing herein shall constitute the complete and exclusive statement of the Terms and Conditions governing the sale of Goods by Seller to Buyer.",
+      "termsAndConditions_title": "Habitat Technologies LLC TERMS AND CONDITIONS",
+      "termsAndConditions_section8_part1": "8. Limited Warranty. The following sets forth the full and complete warranty of Seller for the Goods:",
+      "termsAndConditions_section5_part1": "5. Terms of Payment. Terms are net thirty (30) days from the date of Seller\u2019s invoice in US currency, unless otherwise specifically stated in writing by Seller. Any balances unpaid after 30 days will be charged interest of 1\u00bd% per month from the date such payment was due. If a shipment is delayed by Seller at request of Buyer, payment therefore shall become due on the date when Seller is prepared to make shipment thereof. Prices are F.O.B. Seller's shipping point. Seller is entitled to perform periodic credit reviews of Buyer. Whenever, in the judgment of Seller, the financial condition of the Buyer does not justify the continuation of production or shipment on the specified terms of payment, the Seller may require full or partial payment in advance. In the event that payment is not made by Buyer when due, Seller reserves the right either to terminate this Agreement or to suspend further performance under this and/or other agreements between Seller and Buyer. Such right of termination or suspension is in addition to, and not in substitution for, any of Seller\u2019s other rights in equity or at law. In the event that Seller shall engage in any actions for the collection of past due amounts, Buyer agrees to be liable for all expenses, including attorney\u2019s fees, related to the collection of such past due amounts.",
+      "termsAndConditions_section12_part1": "12. Installation. Buyer shall be responsible for receiving, inspecting, testing, storing, installing, starting up and maintaining all Goods.",
+      "termsAndConditions_section3_part1": "3. Prices. Seller may adjust the price of the Goods from the price at which any order for goods is accepted to the Seller\u2019s price in effect at the time of shipment, without prior notice to Buyer.",
+      "termsAndConditions_section6_part1": "6. Security Interest. Buyer hereby grants Seller a security interest in all Goods sold to Buyer by Seller. Such security interest shall continue in such Goods until all amounts due and owing for such Goods are paid for to the satisfaction of Seller. At Seller\u2019s request, Buyer agrees that it will execute and deliver to Seller such instruments as Seller requests to protect and perfect such security interests.",
+      "termsAndConditions_section17_part1": "17. Miscellaneous. These terms and conditions supersede all other communications, negotiations and prior oral or written statements regarding the subject matter of these terms and conditions. The validity, performance, and all other matters relating to the interpretation and effect of this agreement shall be governed by the laws of the state of Missouri without regard to its conflict of law principles. No action, regardless of form, arising out of transactions relating to this contract, may be brought by either Party more than two (2) years after the cause of the action has accrued.",
+      "termsAndConditions_section16_part1": "16. U.S. Export Control Regulations. All Goods sold to Buyer by Seller hereunder are subject to U.S. Export Control Laws. Buyer hereby agrees not to re-sell or divert any Goods contrary to such laws. For sales ultimately destined outside the United States, notwithstanding any provisions to the contrary in this or other documents related to this transaction, and regardless of how price was quoted, whether FOB, FAS, CIF or otherwise, legal title to the goods and risk of loss shall remain with Seller until the goods have passed beyond the territorial limits of the United States.",
+      "termsAndConditions_section15_part2": "any dissemination of such documents or information of any nature, provided by Buyer hereunder; and further, Seller shall not be liable for any damages, costs or expenses of any nature arising out of any dissemination of such documents or information.",
+      "termsAndConditions_section10_part2": "Seller reserves the right to change designs and specifications for Goods without prior notice to Buyer. Seller shall have no obligation to install or make such change in any Goods manufactured prior to the date of such change.",
+      "termsAndConditions_section10_part1": "10. Changes. Buyer may request changes or additions to the Goods consistent with Seller\u2019s specifications and criteria. In the event such changes or additions are accepted by Seller, Seller may revise the price(s), license fee(s) and date(s) of delivery.",
+      "termsAndConditions_section9_part2": "If Seller determines that its ability to supply the total demand for the Goods or to obtain material used directly or indirectly in the manufacture of the Goods, is hindered, limited or made impracticable due to causes set forth herein, Seller may allocate its available supply of the Goods or such material (without obligation to acquire other supplies of any such Goods or material) among itself and its purchasers on such basis as Seller determines to be equitable without liability for any failure of performance which may result therefrom.",
+      "termsAndConditions_section9_part1": "9. Excuse of Performance (Force Majeure). Seller shall not be liable for delays in performance or for non-performance due to acts of God, acts of Buyer, war, fire, flood, weather, sabotage, strikes, labor disputes, civil disturbances or riots, governmental requests, restrictions, allocations, laws, regulations, orders or action, unavailability of or delays in transportation, default of suppliers, or unforeseen circumstances or events beyond Seller\u2019s reasonable control. Deliveries or other performance may be suspended for an appropriate period of time or cancelled by Seller upon notice to Buyer in the event of any of the foregoing, but the balance of the agreement shall otherwise remain unaffected.",
+      "termsAndConditions_section14_part1": "14. Quantity. Buyer agrees to accept quantities of plus or minus ten percent (10%) of the order on Goods, including parts. Any such additional items shall be priced at the price per item charged for the specific quantity ordered.",
+      "termsAndConditions_section15_part1": "15. Confidentiality. Unless specifically agreed to in writing, Seller (including without limitation its successors, assigns, agents or any person or entity acting at Seller\u2019s direction) shall not be responsible for keeping confidential any specifications, drawings, designs, manufacturing data or other information of any nature, provided by Buyer hereunder; and further, Seller shall not be liable for any damages, costs or expense, of any nature arising out of",
+      "termsAndConditions_section8_part1_i": "i. Patents and Copyrights. In the event Goods from the Seller are found to infringe a US patent, Seller shall have the right, at its option and expense, to procure for Buyer the right for Buyer to continue using such Goods, or replace them with non-infringing Goods or modify same to become non-infringing, or grant Buyer a credit for the depreciated value of such Goods upon their return. In the event of the foregoing, Seller may also, at its option, cancel the agreement as to future deliveries of such Goods, without liability.",
+      "termsAndConditions_section8_part1_h": "h. Buyer expressly agrees that in the event that Seller shall furnish any technical advice with respect to the use of the Goods, is given without charge, and Buyer further agrees that Seller shall assume no obligation or liability for such advice given, or the results obtained. Buyer agrees that it will accept such technical advice at Buyer\u2019s risk.",
+      "termsAndConditions_section8_part1_a": "a. Seller warrants that any Goods purchased for resale hereunder will be free from defects in material and workmanship under normal use and regular service and maintenance for the period specified in the Seller\u2019s warranty applicable to such goods in effect on the date of shipment. A copy of such warranty policy will be furnished to Buyer upon request and is hereby incorporated by reference.",
+      "termsAndConditions_section7_part1": "7. Shipment and Delivery. All Shipments shall be F.O.B. Seller\u2019s shipping point unless specifically stated otherwise in writing. Responsibility and risk of loss or damage shall pass from Seller to Buyer upon delivery to and receipt by common carrier. All claims for shipping errors, lost shipments or other discrepancies must be made in writing from Buyer to Seller within five (5) days. Buyer will be deemed to have waived any such claims that are not made within the required ten-day reporting period. Delivery dates are not guaranteed but are estimated on the basis of immediate receipt by Seller of all information to be furnished by Buyer and the absence of delays, direct or indirect, resulting from or contributed to by circumstances beyond Seller\u2019s reasonable control. Seller shall in good faith endeavor to meet estimated delivery dates. Seller reserves the right to withhold delivery of the Product if, for any reason, Buyer fails to pay to Seller any portion of the purchase price for the Product(s) in the amount(s) and at the time(s) specified in the Contract.",
+      "termsAndConditions_section8_part1_c": "c. Buyer\u2019s exclusive remedy under this limited warranty shall be, at Seller\u2019s option, the replacement of any confirmed defective Goods or the issuance of a credit for not more than the purchase price of the Goods. In no event shall any warranty payment include the cost of labor or other expenses incurred in servicing any units on which the goods are installed. In the event that Buyer shall claim a breach of this warranty, Seller reserves the right to inspect any such goods and determine the validity of any such claim.",
+      "termsAndConditions_section8_part1_b": "b. No warranty will apply to any Goods that have been altered in any manner by anyone other than Seller at Seller\u2019s facilities or have otherwise been subjected to improper handling, operation, maintenance, repair or alteration, misuse, negligence, improper installation or accident.",
+      "termsAndConditions_section8_part1_e": "e. Any products purchased by Seller from a third party for resale to Buyer (\u201cResale Products\u201d) shall carry only the warranty extended by the Resale Products\u2019 original manufacturer. Seller agrees to provide reasonable cooperation with Buyer in the event that Buyer shall have any claim against such original manufacturer pursuant to the warranty of a Resale Product.",
+      "termsAndConditions_section8_part1_d": "d. THE LIMITED WARRANTY SET FORTH HEREIN CONSTITUTES THE SOLE WARRANTY PROVIDED BY SELLER, AND FURTHER SETS FORTH BUYER\u2019S EXCLUSIVE REMEDY WITH RESPECT TO SUCH WARRANTY, REGARDLESS OF WHETHER SUCH REMEDY MIGHT BE CLAIMED IN TORT, CONTRACT, STRICT LIABILITY OR OTHERWISE. EXCEPT AS IS EXPRESSLY SET FORTH IN THESE TERMS AND CONDITIONS, SELLER MAKES NO OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED, WHETHER OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR OTHERWISE. IN NO INSTANCE SHALL SELLER BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER IN CONNECTION WITH THE SALE, RESALE OR USE OF THE GOODS.",
+      "termsAndConditions_section8_part1_g": "g. Buyer agrees to indemnify and hold Seller harmless from any liability to Buyer, Buyer\u2019s employees, workers, contractors or other persons arising out of Buyer\u2019s or any other person\u2019s use of the goods. Buyer agrees that any and all instructions and warnings supplied to Buyer by Seller will be forwarded to any person or entity who uses the goods. Buyer further agrees that the Goods will be used in their recommended applications and that all warning labels supplied by Seller with respect to the Goods will be left intact and forwarded with the Goods to any further users.",
+      "termsAndConditions_section8_part1_f": "f. Limitation of Liability. Seller\u2019s sole and exclusive responsibility, and Buyer\u2019s exclusive remedy, or breach of any warranty hereunder, is limited to Seller\u2019s responsibility replace or provide credit under this section. In no event will Seller\u2019s liability to Buyer and/or any of its customers, exceed the price paid by Buyer for the specific goods provided by Seller giving rise to the claim or cause of action, and Buyer shall indemnify Seller for any damages in excess thereof. At no time shall Seller be liable for any incidental, consequential or punitive damages, including, but not limited to, loss of any anticipated profits, interruption of business, loss of use of revenue, cost of capital or loss or damage to property or equipment, or loss of reputation."
+    },
+    "tryAgain": "Try to restart this application.",
+    "acceptance": {
+      "failure": "Failed to process your request. Please try again."
+    },
+    "reacceptanceMessage": "Please review our {{document}}.",
+    "privacy": "Privacy Notice",
+    "privacyNotice": {
+      "privacyNotice_section3_part3(2)": "We may use your personal information to perform business analyses or for other purposes to improve the quality of our business, our sites and Habitat Technologies products or services (including new products or services), or to make our sites easier to use by eliminating the need for you to repeatedly enter the same information or by customizing our sites to your particular preference or interests.",
+      "privacyNotice_section5_part2_tilte2": "2. Performance Cookies",
+      "privacyNotice_section5_part2_tilte1": "1. Strictly Necessary Cookies",
+      "privacyNotice_section5_part2_tilte4": "4. Advertising Cookies",
+      "privacyNotice_section14_part1(2)": "Circumstances may arise where for strategic or other business reasons Habitat Technologies decides to sell, buy, merge or otherwise reorganize businesses in some countries. Such a transaction may involve the disclosure of personal information to prospective or actual purchasers, or the receipt of personal information sellers. We may disclose information we maintain about you to the extent reasonably necessary to proceed with the negotiation or completion of a merger, acquisition or sale of all or a portion of Habitat Technologies assets. It is Habitat Technologies practice to seek appropriate protection for information in these types of transactions.",
+      "privacyNotice_section2_part2(1)": "Information collected directly from you.",
+      "privacyNotice_section15_part1(2)": " We may disclose personal information if required or authorized to do so by law or in the good-faith belief that such action is necessary to comply with legal requirements or with legal process served on us, to protect and defend our rights or property or, in urgent circumstances, to protect the personal safety of any individual.",
+      "privacyNotice_section12_part1(2)": " In responding to a request made by you, we may share your personal information with companies that distribute our products. In those cases, we provide these companies with only those elements of your personal information they need to respond to your request, and these companies and their employees are prohibited from using that personal information for any other purpose. In some cases, we may seek your permission to share your information with distributors for marketing purposes other than responding to a request from you. However, we will not share your information for such marketing purposes unless we have obtained your express consent to do so.",
+      "privacyNotice_section2_part2(2)": "Generally, you can visit Habitat Technologies\u2019sites without entering any personal information. On certain pages, we may ask you for personal information to provide a service or carry out a transaction that you have requested. You may also provide some personal information to us when you contact us (e.g., with a comment, inquiry or customer support request). The personal information we collect or receive may include:",
+      "privacyNotice_section5_part2_tilte4_1": "These cookies may be used to deliver advertisements that are more relevant to you and your interests. They may also be used to limit the times you see an advertisement as well as help to measure the effectiveness of the advertising campaign. Although these cookies may track your visits to other websites, they do not usually know who you are.",
+      "privacyNotice_section5_part2_tilte4_2": "Without these cookies, online advertisements you encounter will be less relevant to you and your interests.",
+      "privacyNotice_section21_part2": "If you have questions regarding this statement or our handling of your personal information, please contact us using the contact information listed below. We will promptly address your concern and strive to reach a satisfactory resolution.",
+      "privacyNotice_section21_part1": "Enforcement of this privacy statement/Contact Us",
+      "privacyNotice_section15_part1(1)": "Disclosure for other reasons.",
+      "privacyNotice_section5_part2_tilte2_2": "These cookies are not used to target you with online advertising. Without these cookies we cannot learn how our sites are performing and make relevant improvements that could better your browsing experience. Examples of performance cookies that our sites use include Google and Adobe Analytics (see further discussion below).",
+      "privacyNotice_section3_part2(1)": "Services and transactions.",
+      "privacyNotice_section5_part2_tilte2_1": "These cookies collect information about how you use our sites, for example which pages you go to most often and if you get any error messages from certain pages. These cookies collect only anonymous information that is used to improve how our sites work.",
+      "privacyNotice_section2_part4(2)": "We collect information about your visit to our sites, including what pages you view, the number of bytes transferred, the links you click, the materials you access and other actions taken within Habitat Technologies\u2019 sites. We may combine this information with your personal information to and use the combined information in accordance with this privacy statement. We also collect certain standard information that your browser sends to every website you visit, such as your Internet Protocol (IP) address, your browser type and capabilities and language, your operating system, the date and time you access the site and the website from which you linked to one of our sites. We do not combine this standard information with other personal information.",
+      "privacyNotice_section6_part2": "You have the ability to accept or decline cookies. Most internet browsers automatically accept cookies, but you can usually modify your browser settings to decline cookies or to notify you when a cookie is being placed on your computer. If you choose to decline cookies, you may not be able to fully experience the features of Habitat Technologies\u2019 sites or other websites that you visit.",
+      "privacyNotice_section6_part1": "Setting your cookie preference",
+      "privacyNotice_section8_link": "Google Analytics Opt Out Link",
+      "privacyNotice_section3_part5(2)": " In connection with a job application or inquiry, you may provide us with information about yourself, such as a resume or curriculum vitae. We may use this information throughout Habitat Technologies for the purpose of employment consideration. If your application or inquiry is unsuccessful, we will keep the information for future consideration for a limited period of time, unless you direct us not to do so.",
+      "privacyNotice_section1_part1": "Introduction",
+      "privacyNotice_section1_part3": "For purposes of this statement, \u201cpersonal information\u201d means information that identifies a particular individual, such as name, postal address, email address or phone number. When other information, such as email newsletter choices, product purchases or consumer product preferences, is associated with personal information, this other information also becomes personal information.",
+      "privacyNotice_section1_part2": "Habitat Technologies LLC. is committed to protecting your privacy. This statement details the steps we take to protect your personal information when you visit our websites or use an online application that contains a link to this statement (collectively, the \u201csites\u201d). This statement also covers information we receive when you contact us (e.g., to submit a comment or query or to seek support with one of our products or services). It describes the personal information that we collect, the purposes for which we use such information and your choices regarding our use of it. The steps we take to protect your personal information and how you can review and correct your personal information are also covered here. By accessing our sites or providing us your information when you contact us, you are consenting to the information collection and use practices described in this privacy statement.",
+      "privacyNotice_section5_part1": "Cookie categories",
+      "privacyNotice_section5_part2": "The type of cookie that may be used on Habitat Technologies\u2019 sites can be put into 1 of 4 categories: Strictly Necessary, Performance, Functionality & Profile and Advertising.",
+      "privacyNotice_section2_part2_9": "event registration information;",
+      "privacyNotice_section2_part2_8": "information that assists us in identifying the products and services that best meet your requirements;",
+      "privacyNotice_section2_part2_7": "inquiries about and orders for our products and services;",
+      "privacyNotice_section2_part2_6": "information used to customize and facilitate your use of our sites, including login and technical information;",
+      "privacyNotice_section2_part2_5": "information, such as your nationality and country of residence, that allows us to determine your eligibility under export control regulations to receive information about certain technologies;",
+      "privacyNotice_section10_part1": "Disclosure of your personal information",
+      "privacyNotice_section14_part1(1)": "Disclosures in connection with acquisitions or divestitures.",
+      "privacyNotice_section2_part2_2": "information about your company and job function;",
+      "privacyNotice_section2_part2_1": "contact details, such as your name, title, company/organization name, e-mail address, telephone and fax numbers and physical address;",
+      "privacyNotice_section18_part2": "The personal information we collect on our sites or that you provide to us when you contact us may be sent to the United States or to any other country in which Habitat Technologies or its agents or suppliers maintain facilities. We may also store and process the information there. Although the laws that protect personal information in those countries may differ from the laws where you live, we will take reasonable steps to ensure that your privacy is protected. By using our websites or contacting us and giving your information to us, you consent to the transfer of the data outside of your country.",
+      "privacyNotice_section18_part1": "Consent to international transfers of personal information",
+      "privacyNotice_section4_part1": "Our use of cookies and web beacons",
+      "privacyNotice_section4_part2": "Cookies are text files containing small amounts of information which is downloaded to your hard disk or to your browser's memory when you visit one of Habitat Technologies\u2019 sites. Cookies are useful because they help arrange the content and layout of our sites and allow us to recognize those computers or other devices that have been to our sites before. Cookies do many different jobs, such as allowing our websites to remember your preference settings and helping us to enhance the usability and performance of our sites and your experience using them.",
+      "privacyNotice_section4_part3": "Our sites also may contain electronic images known as web beacons \u2013 sometimes called single-pixel gifs \u2013 that allow us to count the number of users who have visited specific pages. We may include web beacons in promotional e-mail messages or newsletters in order to determine whether messages have been opened and acted upon.",
+      "privacyNotice_section13_part1(1)": "Disclosure in connection with transactions.",
+      "privacyNotice_section10_part2": "Except as described below, personal information that we collect about you through our sites or that you provide to us when you contact us will not be shared outside of Habitat Technologies without your permission.",
+      "privacyNotice_section3_part2(2)": "We use your personal information to deliver services or carry out transactions you have requested, including, but not limited to, providing information on Habitat Technologies\u2019 products or services, registering purchased products, processing product orders, handling warranty claims, replacing product manuals, answering customer service requests and facilitating use of our sites. In order to offer you a more consistent experience in your interactions with Habitat Technologies including, but not limited to, learning about you and how you interact with and use Habitat Technologies products and services; developing and managing our products, services and customer care; and providing you with information about Habitat Technologies products and services that you may be interested in information collected by our sites may be combined with information we collect or acquire through other means.",
+      "privacyNotice_section19_part2": "Habitat Technologies does not knowingly collect information from children and does not target or direct its sites to children.",
+      "privacyNotice_section19_part1": "Children's information",
+      "privacyNotice_section21_part2_6": "New York, NY 10016",
+      "privacyNotice_section21_part2_5": "330 East 38th Street, Suite 530",
+      "privacyNotice_section3_part5(1)": "Employment Applications.",
+      "privacyNotice_section21_part2_3": "Habitat Technologies LLC.",
+      "privacyNotice_section21_part2_2": "Mailing Address:",
+      "privacyNotice_section21_part2_1": "customerservice@habitat.support",
+      "privacyNotice_section13_part1(2)": "In connection with certain transactions, we may disclose some or all of your personal information to financial institutions, government entities and shipping companies or postal services involved in fulfillment of the transaction.",
+      "privacyNotice_section16_part1": "Security",
+      "privacyNotice_section16_part2": "Habitat Technologies is committed to protecting the security of your personal information. We use a variety of security technologies and procedures to help protect your personal information from unauthorized access, use or disclosure. For example, we store the personal information you provide on computer systems with limited access that are located in facilities to which access is limited. For sites to which you log in, it is your responsibility to ensure the security of your password and not to reveal this information to others. When you move around a site to which you have logged in, or from one site to another that uses the same login mechanism, we verify your identity by means of an encrypted cookie placed on your machine.",
+      "privacyNotice_section5_part2_tilte3": "3. Functionality & Profile Cookies",
+      "privacyNotice_section7_part3": "You may opt out of web analytics by installing these tools on your computer.",
+      "privacyNotice_section7_part2": "These analytics are provided by Google Analytics. The information generated by the cookie about your use of our sites (including your IP address) will be transmitted to and stored by Google and Adobe on servers in the United States. Google and Adobe will use this information for the purpose of evaluating your use of our sites, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google and Adobe may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google\u2019s or Adobe\u2019s behalf. Google and Adobe will not associate your IP address with any other data held by Google and Adobe.",
+      "privacyNotice_section7_part1": "Our use of web analytics",
+      "privacyNotice_section22_part1": "Changes to this privacy statement",
+      "privacyNotice_section22_part2": "Habitat Technologies may occasionally update this privacy statement. When we do, we will revise the \"last updated\" date at the top and bottom of the privacy statement. If we make any material changes in the way we collect, use and/or share personal information that we collect about you through the sites, we will notify you by sending you an email at the last email address that you provided us and/or by prominently posting notice of the changes on the sites.",
+      "privacyNotice_section3_part6": "In addition to the uses listed above, we may use information we have collected in order to detect, prevent and respond to fraud, intellectual property infringement, violations of our Terms & Conditions, and violations of law or other misuse of the sites.",
+      "privacyNotice_section1_title": "Privacy Statement",
+      "privacyNotice_section2_part2_4": "financial information (including credit card or account information);",
+      "privacyNotice_section3_part1": "Our use of information",
+      "privacyNotice_section2_part2_3": "your e-mail marketing preferences;",
+      "privacyNotice_section11_part1(2)": "Habitat Technologies contracts with other companies to provide services on our behalf, such as hosting websites, sending out information, conducting surveys, processing transactions, analyzing our sites and performing business and other analyses to improve the quality of our business, our sites and Habitat Technologies products or services. We provide these companies with only those elements of your personal information they need to deliver those services effectively. These companies and their employees are prohibited from using personal information they receive from Habitat Technologies for any other purpose.",
+      "privacyNotice_section21_part2_4": "Customer Service Department",
+      "privacyNotice_section9_part1": "Do-Not-Track Signals and Similar Mechanisms",
+      "privacyNotice_section9_part3": "Habitat Technologies currently does not take action in response to these signals. If and when a final standard is established and accepted, Habitat Technologies will reassess how to respond to these signals.",
+      "privacyNotice_section9_part2": "Some web browsers may transmit \u201cdo-not-track\u201d signals to the sites with which the user communicates. Because of differences in how web browsers incorporate and activate this feature, it is not always clear whether users intend for these signals to be transmitted, or whether they even are aware of them. There currently is disagreement, including among participants in the leading internet standards-setting organization, concerning what, if anything, websites should do when they receive such signals.",
+      "privacyNotice_section3_part4(2)": "We may use your personal information to inform you of products or services available from Habitat Technologies in which you may be interested and to send you surveys regarding your use of Habitat Technologies\u2019 products and services. You can opt out of receiving promotional communications from us by contacting us using the contact information listed in this privacy statement. Moreover, each promotional e-mail communication we send includes an unsubscribe link allowing you to stop delivery of that type of communication. If you elect to unsubscribe, we will remove you from the relevant list within 10 business days.",
+      "privacyNotice_section17_part1": "Reviewing your personal information",
+      "privacyNotice_section17_part2": "In some cases, you can review and correct personal information provided through our sites by going to the page on which you provided the information. In all cases, you can make a request to review and correct your personal information that is collected via our sites or that you provide when you contact us or ask Habitat Technologies to stop using it by contacting us using the contact information listed below. We may take steps to verify your identity before providing you access to your personal information. You can help us to maintain the accuracy of your information by notifying us of any change to your mailing address, phone number or e-mail address.",
+      "privacyNotice_section11_part1(1)": "Disclosure to service providers.",
+      "privacyNotice_section3_part3(1)": "Website and product improvement.",
+      "privacyNotice_section2_part4(1)": "Information collected automatically.",
+      "privacyNotice_section5_part2_tilte1_1": "These cookies are essential, as they enable you to move around our sites and use their features, particularly in connection with information searches and order placement. Without these cookies, services you have asked for cannot be provided. These cookies do not gather information about you that could be used for marketing or remembering where you have been on the internet. An example of a strictly necessary cookie is a \u201cshopping basket cookie,\u201d which is used to remember the products that you wish to purchase when you add products to your shopping basket or proceed to checkout.",
+      "privacyNotice_section2_part3": "You are not required to provide any of this information, but if you do not, we may not be able to provide you the requested service or complete your transaction.",
+      "privacyNotice_section2_part1": "Our collection of information",
+      "privacyNotice_section12_part1(1)": "Disclosure to distributors.",
+      "privacyNotice_section20_part2": "Our sites may contain links to other websites such as Habitat Technologies\u2019 distributors and sales affiliates, professional and government organizations and publications. We also link to third-party providers that host, maintain and operate on-line training curricula. Although we try to link only to websites that share our high standards and respect for privacy, we are not responsible for the content, security, or privacy practices employed by other websites.",
+      "privacyNotice_section20_part1": "Links to other sites",
+      "privacyNotice_section5_part2_tilte3_2": "Without these cookies, a website cannot remember choices you have previously made or personalize your browsing experience. For example, we use a cookie to store your language preferences, which allows us to present you with product search results in the correct language, and we use a cookie to store your choice about the appearance of the cookie information banner that we display on our sites. This cookie will help us remember your choice about the appearance of the cookie information banner when you subsequently visit the same site where you made your choice about the banner and any other Habitat Technologies\u2019 sites with the same domain or the same top level domain.",
+      "privacyNotice_section5_part2_tilte3_1": "These cookies allow our sites to store information that you provide such as your site language preferences and to store technical information useful for your interactions with our sites. For instance, they remember your user ID and elements of your user profile. They also ensure that your experience using the sites and Habitat Technologies\u2019 marketing efforts are relevant to you. They may also be used to provide services you have asked for such as watching a video or commenting on a blog. The information these cookies collect may be anonymous and they cannot track your browsing activity on other websites.",
+      "privacyNotice_section2_part2_10": "feedback from you about our sites and our products and services generally.",
+      "privacyNotice_section3_part4(1)": "Communications."
+    },
+    "previousAcceptanceMessage": "You have accepted previous version ({{acceptedVersion}}) of {{document}}{{acceptedAt, [ on] YYYY/MM/DD [at] h:mm A}}.",
+    "signUpLegalAcceptance": {
+      "head": "By clicking \"Sign Up\", you agree to our ",
+      "conjunction": " and ",
+      "tail": "."
+    },
+    "acceptanceMessage": "You have accepted this version of {{document}}{{acceptedAt, [ on] YYYY/MM/DD [at] h:mm A}}.",
+    "openInBrowser": "Open in Browser",
+    "terms": "Terms and Conditions",
+    "serverError": "Server Error"
+  },
+  "userManagement": {
+    "resetPasswordHint": "Please enter your email address. A confirmation code will be sent to your inbox.",
+    "resetPasswordDescription": "An email has been sent to your inbox {{email}}. Please enter the confirmation code within 24 hours and the new password you would like to use.",
+    "help": {
+      "city": " ",
+      "name": " ",
+      "mobile": " ",
+      "lastname": " ",
+      "address": " ",
+      "buildingID": " ",
+      "verificationCode": "Verification code was sent to your mobile device.",
+      "state": " ",
+      "unitNumber": " ",
+      "confirmationCode": "Confirmation code was sent to your inbox.",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters).",
+      "country": " ",
+      "postalCode": " ",
+      "password": " ",
+      "email": " "
+    },
+    "invalidResendConfirmationCodeEmail": "Your account may not exist or may have already been activated.",
+    "additionalEmailRecipients": {
+      "inviteEmailSent": "Invite Email Sent",
+      "confirmToSendInvite": "Please press Confirm to send this Invite.",
+      "sensorSettingsPageTitle": "Additional Email Alert Settings Remote Sensors and Devices",
+      "title": "Additional Email Recipients",
+      "deleteEmailDescription": "This Invite email recipient will be deleted.",
+      "disclaimerTitle": "Please Note:",
+      "add": "Add an additional email address to receive Smart Alert email notifications",
+      "name": "ProLink Email Recipients",
+      "thermostatSettingsPageTitle": "Additional Email Recipients Settings",
+      "sendInviteDescription": "{{email}} will be sent an invite to receive Habitat HomeLink System Alert Email Notifications that you assigned.",
+      "addRecipient": "Add Recipient",
+      "deleteEmail": "Delete Email Recipient?",
+      "disclaimerContent": "Additional recipients notified shall not be obligated to take any action nor bear responsibility for failure to act upon receipt of notifications.",
+      "emailIsUnsubscribed": "{{email}} email is unsubscribed.",
+      "noLongerReceiveAlerts": "This email will no longer receive alerts once it is deleted.",
+      "sendInvite": "Send Invite"
+    },
+    "activateAccountSuccess": "Account Activation Success",
+    "attemptLimitExceeded": "Attempt limit exceeded. Please wait 1 hour before retrying. Consider resetting your password.",
+    "activateAccount": "Activate Account",
+    "activateAccountHint": "Please enter the confirmation code to activate account.",
+    "send": "Send",
+    "additionalUsers": {
+      "deleteUser": {
+        "stopSharing": "You are about to stop sharing a system another user shared with you. Are you sure?",
+        "description": "The user's access to this system will be terminated.",
+        "title": "Unshare this System's Access?"
+      },
+      "addOrUpdateAdditionalUsers": "Add / Update Additional Users",
+      "userHasDeclined": "This user has declined or terminated sharing of your system. Please delete them and re-invite if you wish to add them again.",
+      "removeAllAdditionalUsers": "Please remove all additional users.",
+      "waitingForConfirmation": "The additional user you have invited to this system is still pending their acceptance acknowledgment or decline.",
+      "addUser": "Add User",
+      "thermostatEmailAlertSettings": {
+        "title": "Additional User's Email Alert Settings"
+      },
+      "userAccessLevelSettings": {
+        "changeTemperatureSetPoint": "Change Temperature Set Point",
+        "title": "Select which functions this user may change or edit.",
+        "addOrChangeProgramSchedule": "Add / Change Program Schedule",
+        "changeFanSpeed": "Change Fan Speed",
+        "receiveEmailNotifications": "Receive Email Notifications",
+        "changeOperatingMode": "Change Operating Mode"
+      },
+      "sendInvite": {
+        "description": "{{email}} will be sent an invite to share access to this system and it's email notifications that you assigned."
+      },
+      "verifyEmail": {
+        "isAdminAccount": "{{email}} is admin account, it has access already.",
+        "notRegistered": "The email: {{email}} is not a registered account. Please verify the email address or have them create a new account.",
+        "description": "Enter the email for an existing user you wish to share this system with.",
+        "title": "Add Additional User",
+        "note": "The email recipient you are adding must have the Habitat HomeLink App downloaded to their mobile or tablet device in order to access your system.",
+        "accessAlready": "The email: {{email}} has access already."
+      },
+      "remoteSensorEmailAlertSettings": {
+        "title": "Additional User's Email Alert Settings Remote Sensors and Devices"
+      }
+    },
+    "resendInvitationSuccess": "Request Success",
+    "city": "City",
+    "invalidResendInvitationEmail": "Your account may not exist or have already been activated.",
+    "registrationSuccessDescription": "An email has been sent to your inbox, {{email}}. Please enter the confirmation code within 24 hours and follow the instructions to active the account.",
+    "emailThermostats": {
+      "heatingModeParameterAlert": "Heating Mode Parameter Alert",
+      "systemMaintenanceAlert": "System Maintenance Alert",
+      "systemLowBatteryAlert": "System Low Battery Alert",
+      "excessivelyHighTemperatureAlert": "Excessively High Temperature Alert",
+      "cannotCommunicatewithZigbeeAlert": "Cannot Communicate with Zigbee Alert",
+      "homeLinkCannotCommunicatewithThermostat": "HomeLink Cannot Communicate with Thermostat",
+      "coolingModeParameterAlert": "Cooling Mode Parameter Alert",
+      "systemAirFilterChangeAlert": "System Air Filter Change Alert",
+      "lowTempEmergencyHeatActivated": "Low Temp Emergency Heat Activated",
+      "noBaseModuleIsPairedWithTheThermostat": "No Base Module is paired with the Thermostat",
+      "cannotCommunicatewithBaseModule": "Cannot Communicate with Base Module",
+      "waterDetectedAlert": "Water Detected Alert",
+      "cannotCommunicatewithCloudServer": "Cannot Communicate with Cloud Server"
+    },
+    "updateSuccess": "Updated Successfully.",
+    "verifyMobile": {
+      "continue": "Continue",
+      "verify": "Verify",
+      "stageThreeHint": "{{mobile}} has been registered for SMS text alerts and notifications.",
+      "stageOneTitle": "Add Phone Number",
+      "stageOneHint": "Please enter your phone number to receive text notifications for your Habitat Device(s).",
+      "stageTwoTitle": "SMS Verification",
+      "stageThreeTitle": "Verified!",
+      "stageTwoHint": "A verification code has been sent to {{mobile}}. Please enter the code below. The code will expire in 3 minutes."
+    },
+    "updateFailure": "Updated Failed.",
+    "activateAccountSuccessDescription": "Account has been successfully activated.",
+    "invalid": {
+      "username": "Please provide your email address.",
+      "city": "Please provide your city.",
+      "name": "Please provide your name.",
+      "usernameExists": "This email address has already been registered.",
+      "mobile": "Please provide your mobile.",
+      "lastname": "Please provide your last name.",
+      "emailNotMatch": "The emails you entered do not match.",
+      "buildingID": "Please provide your buildingID.",
+      "verificationCode": "Please enter the verification code sent to your mobile device.",
+      "state": "Please provide your state.",
+      "unitNumber": "Please provide your unitNumber.",
+      "confirmationCode": "Please enter the confirmation code sent to your inbox.",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters).",
+      "country": "Please provide your country.",
+      "postalCode": "Please provide your Postal Code.",
+      "password": "Please enter your password.",
+      "email": "Please provide a valid email address.",
+      "address": "Please provide your address."
+    },
+    "sessionExpired": "Session has expired.",
+    "state": "State",
+    "resentInvitationHint": "Please enter your email address. A temporary password will be sent to your inbox to complete registration.",
+    "resentConfirmationCodeHint": "Please enter your email address. A confirmation code will be sent to your inbox to complete registration.",
+    "invalidActivateAccount": "Your account may not exist or has not been activated yet.",
+    "invalidCredential": "Incorrect email or password.",
+    "postalCode": "Postal Code",
+    "emailAndNotification": {
+      "emailRemoteSensorsAndDevices": "E-mails Remote Sensors and Devices",
+      "emailThermostats": "E-mails Thermostats",
+      "sectionName": "E-mail and Notifications",
+      "infoAndOffers": "Habitat Info & Offers",
+      "alerts": "Smart Alerts",
+      "textAlert": "Text Alerts",
+      "infoAndOffersDescription": "Receive Information about local utility rebates, monthly usage reports, energy saving tips and services, new products, and features. Occasionally, We\u2019ll ask for your feedback so we can continue to improve your experience.",
+      "alertsDescription": "You will know when there is an issue with your system through e-mail and push-notifications.",
+      "pushNotifications": "Push Notifications",
+      "email": "E-mails"
+    },
+    "profile": "Profile",
+    "changePassword": "Change Password",
+    "email": "Email Address",
+    "invalidConfirmationCode": "The confirmation code is invalid.",
+    "registrationSuccess": "Registration Success",
+    "resendConfirmationCodeSuccessDescription": "An email has been sent to your inbox, {{email}}. Please enter the confirmation code within 24 hours and follow the instructions to active the account.",
+    "confirmResetPasswordSuccessDescription": "Password has been successfully reset for {{email}}. You may sign in using the new password.",
+    "invalidNewPasswordFormat": "Your new password format is invalid.",
+    "currentPassword": "Current Password",
+    "E-mailThermostatsSetting": "E-mail Alert Settings Thermostats",
+    "lastname": "Last Name",
+    "resendInvitationSuccessDescription": "An email is resent to your inbox in {{email}}. Please sign in using the temporary password and follow the instruction to change password.",
+    "invalidOldPassword": "Incorrect current password.",
+    "expiredConfirmationCode": "The confirmation code is expired, please request a code again.",
+    "unitNumber": "Unit Number",
+    "confirmationCode": "Confirmation Code",
+    "emailRemoteSensorsAndDevices": {
+      "motionSensorOfflineAlert": "Motion Sensor Offline Alert",
+      "remoteLeakSensorTamperAlert": "Remote Leak Sensor Tamper Alert",
+      "motionSensorTamperAlert": "Motion Sensor Tamper Alert",
+      "remoteTempSensorTamperAlert": "Remote Temp Sensor Tamper Alert",
+      "remoteTempSensorOfflineAlert": "Remote Temp Sensor Offline Alert",
+      "remoteTempSensorLowBatteryAlert": "Remote Temp Sensor Low Battery Alert",
+      "remoteLeakSensorOfflineAlert": "Remote Leak Sensor Offline Alert",
+      "remoteLeakSensorLowBatteryAlert": "Remote Leak Sensor Low Battery Alert",
+      "motionSensorLowBatteryAlert": "Motion Sensor Low Battery Alert",
+      "remoteWaterLeakAlert": "Remote Water Leak Alert"
+    },
+    "verificationCode": "Verification Code",
+    "address": "Address",
+    "password": "Password",
+    "buildingID": "Building ID",
+    "resend": "Resend",
+    "reset": "Reset",
+    "E-mailRemoteSensorsAndDevicesSetting": "E-mail Alert Settings Remote Sensors and Devices",
+    "name": "First Name",
+    "continueActivateAccount": "Continue to Activate Account",
+    "mobile": "Mobile",
+    "country": "Country",
+    "signUp": "Sign Up",
+    "resetPasswordSuccessDescription": "The password has been reset, you can sign in now.",
+    "invalidConfirmResetPassword": "The confirmation code is invalid.",
+    "confirmResetPasswordSuccess": "Reset Password Success",
+    "continue": "Continue to Sign In",
+    "confirmEmail": "Confirm Email Address",
+    "deleteUserProfile": {
+      "description": "Delete your user profile? This operation cannot be undone.",
+      "success": "Your profile is successfully removed.",
+      "title": "Delete User Profile",
+      "button": "Delete User Profile",
+      "processing": "Deleting user profile and devices...",
+      "failure": "Your profile cannot be deleted. {{errorMessage}}",
+      "checkboxLabel": "Factory reset WiFi-Zigbee Module"
+    },
+    "invalidResetPassword": "Your account may not exist or has not been activated yet.",
+    "resendConfirmationCodeSuccess": "Request Success",
+    "resetPasswordSuccess": "Reset Password Request"
+  },
+  "app": {
+    "connectionError": "Network not found.",
+    "serverError": "Server Error.",
+    "back": "Back",
+    "accept": "Accept",
+    "emailRemoteSensorsAndDevicesSetting": "E-mail Alert Settings Remote Sensors and Devices",
+    "warning": "Warning:",
+    "networkErrorDescription": "You are not connect to the internet or network error.",
+    "cancel": "Cancel",
+    "close": "Close",
+    "yes": "Yes",
+    "resetSettings": "Reset to Factory Settings",
+    "updatingSettings": "Updating Settings...",
+    "select": "Select",
+    "decline": "Decline",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "updateSettingsFailure": "Could not update settings, please try again",
+    "factoryReset": "Factory Reset Confirmation",
+    "networkError": "Network Error",
+    "next": "Next",
+    "deviceDashboard": "Device Dashboard",
+    "setting": "Setting",
+    "exit": "Exit",
+    "shared": "Shared",
+    "save": "Save",
+    "confirmation": "Confirmation",
+    "return": "Return",
+    "thermostatUserSetting": "User Settings",
+    "processing": "Processing...",
+    "quit": "Quit",
+    "finish": "Finish",
+    "loading": "Loading...",
+    "thermostatVAdministrativeSetting": "Administrative Settings",
+    "emailThermostatsSetting": "E-mail Alert Settings Thermostats",
+    "updating": "Updating...",
+    "resetEmailAlertSettings": "Reset to Factory Default",
+    "ok": "OK",
+    "edit": "Edit",
+    "no": "No",
+    "unexpectedError": "Unexpected Error.",
+    "resetAlertFailure": "Could not reset the Alert, please try again",
+    "deviceTimeSettingError": "Please check your device time and timezone settings.",
+    "continue": "Continue",
+    "connecting": "Connecting...",
+    "welcomeTo": "Welcome to",
+    "resetting": "Resetting...",
+    "reconnecting": "Reconnecting..."
+  },
+  "versionManagement": {
+    "tryAgain": "Try to restart this application.",
+    "googlePlay": "Google Play",
+    "title": "Update Required",
+    "serverError": "Server Error",
+    "appStore": "App Store",
+    "button": {
+      "quit": "Quit",
+      "update": "Go to {{store}}"
+    },
+    "description": "Dear customer, in order to continue to use this app, an update {{version}} is required. Thank you for your cooperation."
+  },
+  "deviceFeatureUiBase": {
+    "lock": {
+      "unlockDescription": "Are you sure you want to Unlock this Thermostat?",
+      "description": "Please input code",
+      "lockDescription": "Are you sure you want to Lock this Thermostat?",
+      "lock": "Lock",
+      "lockConfirmation": "Lock Confirmation",
+      "unlock": "Unlock",
+      "unlockConfirmation": "Unlock Confirmation"
+    },
+    "deviceName": {
+      "nameDevice": "Tap here to name your device",
+      "editNameDescription": "Edit device name",
+      "required": "Device name is required",
+      "name": "Name"
+    },
+    "thermostatScheduleStatus": {
+      "type": {
+        "scheduleEnabled": "Schedule On",
+        "scheduleDisabled": "Schedule Off"
+      },
+      "label": {
+        "scheduleOverride": "Override",
+        "scheduleEnabled": "On",
+        "scheduleDisabled": "OFF"
+      }
+    },
+    "thermostat": {
+      "heatSetPoint": "Heat Set Point",
+      "room": "Room",
+      "coolPoint": "COOL SETPOINT",
+      "coolSetPoint": "Cool Set Point",
+      "setPoint": "Set Point",
+      "heatPoint": "HEAT SETPOINT",
+      "setbackSetPoint": "Setback Set Point",
+      "setbackMode_ON": "Setback/Eco Mode - ON",
+      "roomTemperature": "Room Temperature",
+      "temperature": "Temperature"
+    },
+    "city": {
+      "required": "City is required",
+      "editDescription": "City"
+    },
+    "country": {
+      "required": "Country is required",
+      "editDescription": "Country"
+    },
+    "thermostatFanMode": {
+      "mode": {
+        "high": "High",
+        "med": "Med",
+        "low": "Low",
+        "auto": "Auto"
+      },
+      "labelText": "Speed"
+    },
+    "deviceLink": {
+      "baseModuleStatus": {
+        "pairedDescription": "All Base Modules Are Paired",
+        "title": "Base Module Status"
+      }
+    },
+    "chart": {
+      "date": "Date",
+      "failure": "Chart data cannot be loaded.",
+      "chart": "Chart",
+      "value": "Value"
+    },
+    "thermostatSchedule": {
+      "status": {
+        "all": "Weekly",
+        "d511": "5/1/1",
+        "d52": "5 + 2",
+        "daily": "Daily"
+      },
+      "copySchedule": {
+        "noScheduleToCopyTitle": "Schedule Copy Function",
+        "defaultSchedule": "Default Schedule",
+        "noScheduleToCopyContent": "Copy function can only be utilized when another unit's schedule is implemented to copy from.",
+        "copyConfirm": "Copy {{device}} Schedule?",
+        "copyFrom": "Copy From"
+      },
+      "copy": "Copy",
+      "form": {
+        "temperature": "Invalid entry. Please enter a number between {{min}} and {{max}}.",
+        "time": "The time entered is not valid. Please enter a time in the format of hh:mm"
+      },
+      "schedule": "Schedule",
+      "button": {
+        "confirmation": "Confirmation",
+        "confirm": "Confirm"
+      },
+      "title": {
+        "auto": "Auto",
+        "setpoint": "Set Point",
+        "start": "Start",
+        "heat": "Heat",
+        "mode": "Mode",
+        "cool": "Cool"
+      },
+      "scheduleOff": "Schedule Off",
+      "next": "Next:",
+      "noSchedule": "There is no schedule",
+      "scheduleStatus": {
+        "off": "SCHEDULE OFF",
+        "runningSchedule": {
+          "description": "Schedule is on. Adjustments to the programming must be done on the thermostat itself.",
+          "title": "Running Schedule"
+        },
+        "scheduleOverride": {
+          "description": "A temporary change to the schedule has been implemented.",
+          "title": "Schedule Override"
+        },
+        "scheduleOff": {
+          "description": "To activate or implement a programming schedule, please go to the thermostat itself.",
+          "title": "Schedule Off"
+        },
+        "temporaryHold": "Schedule Override",
+        "permanentHold": "SCHEDULE OFF",
+        "follow": "Running Schedule"
+      },
+      "label": {
+        "setpoint": "Set Point",
+        "scheduleMode": "Schedule Mode",
+        "heat": "Heating Set Point",
+        "mode": "Mode",
+        "time": "Start Time",
+        "cool": "Cooling Set Point"
+      },
+      "override": "OVERRIDE",
+      "nonProgrammable": "Non Programmable",
+      "scheduleDay": {
+        "short": {
+          "d6": "Sun",
+          "d4": "Fri",
+          "d5": "Sat",
+          "d2": "Wed",
+          "d3": "Thu",
+          "d0": "Mon",
+          "d1": "Tue"
+        },
+        "long": {
+          "d6": "Sunday",
+          "d4": "Friday",
+          "d5": "Saturday",
+          "d2": "Wednesday",
+          "d3": "Thursday",
+          "d0": "Monday",
+          "d1": "Tuesday"
+        }
+      }
+    },
+    "deviceSetting": {
+      "selectThermostatSystem": "Select Thermostat System",
+      "thermostatFunctionalSetting": "Functional",
+      "thermostatSystemSetting": "System",
+      "adminSecondAdvanceConfirmation": "This function changes the manufacturers settings of your HVAC equipment. Please consider that changes to the System settings may cause abnormal operation of the HVAC equipment. Refer to the HVAC equipment manufacturers installation and operation instructions before making changes.",
+      "modifyUnsavedPrompt": "Changes have not been saved to the device, leaving this page will discard any changes. ",
+      "warning": "Warning",
+      "invalidSetting": "Please fill in all the settings.",
+      "advanceConfirmation": "To access Administrative Settings, please enter the Installer Code.<br><br>Please consider that changes to the System Setup may cause abnormal operation of the HVAC equipment. Refer to the HVAC equipment manufacturers installation and operation instructions before making changes",
+      "descriptionOfTheAirFilterTimeChange": "Air Filter changes are based on the system's actual operational  running times. Each 24 hour run-time cycle is equivalent to a total of 1 operation day.",
+      "advancedSettings": "Advanced settings",
+      "adminFirstAdvanceConfirmation": "To access Administrative Settings, please enter the Installer Code.",
+      "forgotCodeEmailSentConfirmation": "An email was sent to the email address you used when logging in. Please check your Inbox and possibly Spam folder for an email containing the Code.",
+      "promptToDisableTheSystemMaintenance": "Shutting this off will disable the System Maintenance Parameter. Are you sure you want to do this?",
+      "label": {
+        "installerLockMode": "Installer Lock",
+        "setbackCoolSetPoint": "Setback Cool Set Point",
+        "setbackHeatSetPoint": "Setback Heat Set Point",
+        "frostProtectSetpoint": "Emergency Heat\u00a0Set Point",
+        "filtrationMaintenance": "Filtration Maintenance",
+        "temperatureDisplayMode": "Temperature Display",
+        "setback": "Setback/Eco Mode",
+        "compressorOffDelay": "Compressor Off Delay",
+        "continousDisplay": "Continuous Display",
+        "minHeatSetpoint": "Minimum Set Point for Heating",
+        "heatStage": "Heat Stage",
+        "compressorCountdownTimer": "Compressor Countdown Timer",
+        "operationalParametersAlert": "Operational Parameters Alert",
+        "minimumSetpoint": "Minimum Set Point",
+        "span": "Span",
+        "systemMaintenance": "System Maintenance",
+        "maximumSetpoint": "Maximum Set Point",
+        "maxCoolSetpoint": "Maximum Set Point for Cooling",
+        "timeFormat24Hour": "Hour Format",
+        "frostProtection": "Frost Protection",
+        "system": "System",
+        "coolingParameterAlert": "Cooling Parameter Alert",
+        "minCoolSetpoint": "Minimum Set Point for Cooling",
+        "highTemperatureAlert": "High Temperature Alert",
+        "HVACType": "HVAC Type",
+        "minimumHeatSetpoint": "Minimum Heat Set Point",
+        "allowUnlockOperation": "Allow Unlock Operation",
+        "checkFromBaseModulePeriod": "Check from Base Module Period",
+        "emergencyHeat": "Emergency Heat",
+        "schedule": "Programming Schedule",
+        "externalSensorEnable": "External Sensor Enable",
+        "maximumCoolSetpoint": "Maximum Cool Set Point",
+        "maxHeatSetpoint": "Maximum Set Point for Heating",
+        "frostSetpoint": "Frost Set Point",
+        "temperatureSensorOffset": "Remote Sensor Offset",
+        "heatOrCoolStage": "Heat/Cool Stage",
+        "minimumCoolSetpoint": "Minimum Cool Set Point",
+        "fanControl": "Fan Control",
+        "maximumHeatSetpoint": "Maximum Heat Set Point",
+        "audibleSound": "Audible Sound",
+        "autoChangeover": "Auto Changeover ",
+        "reversingValve": "Reversing Valve",
+        "coolStage": "Cool Stage",
+        "systemMaintenanceParameter": "System Maintenance Parameter",
+        "filterChangeParameter": "Filter Change Parameter",
+        "differential": "Differential",
+        "temperatureSensor": "Temperature Sensor",
+        "geofencing": "Geofencing",
+        "timeZone": "Time Zone",
+        "heatingParameterAlert": "Heating Parameter Alert",
+        "temperatureOffset": "Thermostat Temperature Offset",
+        "deadBand": "Dead Band"
+      },
+      "descriptionOfTheSystemMaintenance": "System maintenance is based on the system's actual operational running times. Each 24 hour run-time cycle is equivalent to a total of 1 operation day.",
+      "promptToDisableTheFilterChangeMaintenance": "Shutting this off will disable the filter change maintenance. Are you sure you want to do this?",
+      "thermostatUserSetting": "",
+      "invalidSetpointRange": "The maximum set point must be greater than minimum",
+      "adminSettings": "Admin",
+      "forgotTheCode": "Forgot the Code ?",
+      "copy": "Copy",
+      "advanceCode": "Code",
+      "thermostatVAdministrativeSetting": "",
+      "thermostatPreferenceSetting": "Preference",
+      "factoryResetConfirmation": "Please confirm you want to reset this thermostat to the Factory Settings.",
+      "thermostatZPlaceholderSetting": " "
+    },
+    "thermostatMode": {
+      "mode": {
+        "emergencyHeat": "Emer Heat",
+        "auto": "Auto",
+        "heat": "Heat",
+        "fan": "Fan",
+        "off": "Off",
+        "cool": "Cool"
+      },
+      "labelText": "Mode"
+    },
+    "connectivity": {
+      "state": {
+        "unknown": "Unknown",
+        "offline": "Offline",
+        "online": "Online"
+      },
+      "changeNetworkConfirmation": "If you have changed the Wi-Fi network or password, please click Confirm to scan again.",
+      "wifiStatus": {
+        "connectedDescription": "Connected",
+        "title": "WIFI Status"
+      }
+    },
+    "state": {
+      "required": "State is required",
+      "editDescription": "State"
+    },
+    "deviceBatteryStatus": {
+      "batteryLevel": {
+        "batteryHalfDescription": "Battery is Half Full",
+        "batteryLowDescription": "Battery is Low",
+        "batteryFullDescription": "Battery is Full",
+        "replaceBatteryDescription": "Replace Battery",
+        "title": "Battery Level"
+      }
+    },
+    "deviceAlarm": {
+      "systemAlert": "System Alert",
+      "note": "If this communication interruption was due to a power loss in the system it may take up to 30 minutes for a remote sensor to comeback online.",
+      "backToDeviceDetail": "Back to Device Detail",
+      "alarmMessage": {
+        "lostLinkWithTstat": "HomeLink Communication to the Thermostat is Interrupted.",
+        "notPaired": "No Base Module is paired with the Thermostat.",
+        "waitingTstatReportData": "Waiting for the Thermostat to report data.",
+        "highTemperatureDetected": "High Temperature Detected",
+        "moduleOffline": "The HomeLink module cannot communicate with the Cloud Server.",
+        "tempSensorIsDamaged": "Temperature sensor is damaged.",
+        "smokeDetected": "Smoke is detected.",
+        "deviceIsDamaged": "{{deviceName}} is damaged.",
+        "moreThanOneSystem": "DIP Switch Error, more than 1 system selection (switch {{switches}} are set to ON).",
+        "waterLeakageDetected": "Water leakage sensor detected water.",
+        "connectedWithAnother": "Thermostat is associated with another HomeLink module.",
+        "sysMaintenanceAlarm": "System Maintenance Recommended",
+        "coolingParameterAlert": "Cooling Mode Parameter Alert Ambient Temperature Level Increasing",
+        "communicateErrorWithCoord": "The HomeLink module cannot communicate with the Zigbee chip.",
+        "communicateErrorWithTstat": "Lost Link between Thermostat and Base Module #{{number}}",
+        "heatingParameterAlert": "Heating Mode Parameter Alert Ambient Temperature Level Decreasing",
+        "batteryVoltageLow": "Battery voltage is low, please replace batteries.",
+        "emergencyHeat": "Low Temperature Detected",
+        "filterAlarm": "System Air Filter Change Recommended",
+        "noBMPairedWithTstat": "Thermostat doesn\u2019t pair with Base Module.",
+        "communicateErrorWithBM": "The HomeLink module cannot communicate with the Base Module. Check cable connection.",
+        "co2Detected": "CO2 is detected.",
+        "waterLeakage": "Water detected on Base Module #{{number}}.",
+        "lostLinkWithRemoveTemperatureSensor": "Lost Link with Remote Temperature Sensor."
+      },
+      "muteTheAlarmConfirmation": "Are you sure want to mute the System Alarm?",
+      "resetFilter": "Reset Filter",
+      "pleaseNote": "Please Note:",
+      "muteTheAlarm": "Mute the alarm",
+      "backToDashboard": "Back to Dashboard"
+    },
+    "address": {
+      "required": "Address is required",
+      "editDescription": "Address"
+    },
+    "postalCode": {
+      "required": "Zip is required",
+      "editDescription": "Zip"
+    },
+    "zigbeeInfo": {
+      "macAddress": "MAC address",
+      "hardwareVersion": "Hardware version",
+      "firmwareVersion": "Firmware version",
+      "channel": "Channel"
+    },
+    "deviceCommonInfo": {
+      "ssid": "Network",
+      "softVersion": "Firmware version",
+      "mac": "MAC address",
+      "model": "Model",
+      "ipAddress": "IP address",
+      "hardVersion": "Hardware version"
+    },
+    "thermostatInfo": {
+      "HybridHeatPump_O": "Hybrid Heat Pump _O",
+      "hardwareVersion": "Hardware version",
+      "HeatPump_O": "Heat Pump _O",
+      "FanCoilUnitMiniSplit": "Fan Coil Unit / Mini Split",
+      "HeatPump_B": "Heat Pump _B",
+      "HybridHeatPump_B": "Hybrid Heat Pump _B",
+      "systemType": "System Setting",
+      "eui": "EUI",
+      "lcdDriverVersion": "LCD Driver version",
+      "PackagedTerminalAC": "Packaged Terminal AC",
+      "Error": "Error",
+      "UNI": "Unitary System",
+      "firmwareVersion": "Firmware version"
+    }
+  },
+  "utility": {
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "help": {
+      "confirmPassword": " ",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters)."
+    },
+    "invalid": {
+      "password": "Please enter your password.",
+      "code": "Invalid code",
+      "confirmPassword": "Your password does not match the confirmed password.",
+      "passwordPolicy": "Password must be at least 8 characters including a number, a special character, an uppercase letter and a lowercase letter (+ and = are invalid characters)."
+    }
+  }
+}
